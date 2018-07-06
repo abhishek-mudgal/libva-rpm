@@ -7,7 +7,7 @@ Summary:	Generate Your Projects
 
 Group:		Development/Libraries
 License:		MIT
-Source0:		%{name}-%{version}.tar.bz2
+Source0:		%{name}-%{version}.tar.gz
 BuildRequires:  automake
 BuildRequires:  libtool
 BuildRequires:  gettext
