@@ -1,0 +1,3 @@
+[submodule "libva"]
+	path = libva
+	url = https://github.com/01org/libva.git
