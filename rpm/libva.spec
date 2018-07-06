@@ -19,7 +19,7 @@ Libva is an implementation for VA-API (Video Acceleration API)
 VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 ./autogen.sh --enable-static
