@@ -7,6 +7,7 @@ Summary:	Generate Your Projects
 
 Group:		Development/Libraries
 License:		MIT
+URL: 		https://github.com/01org/libva.git
 Source0:	%{name}-%{version}.tar.bz2
 BuildRequires:  automake
 BuildRequires:  libtool
@@ -19,7 +20,7 @@ Libva is an implementation for VA-API (Video Acceleration API)
 VA-API is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}/libva
 
 %build
 ./autogen.sh --enable-static
