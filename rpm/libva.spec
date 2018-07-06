@@ -8,7 +8,7 @@ Summary:	Generate Your Projects
 Group:		Development/Tools
 License:		MIT
 URL:		https://github.com/intel/libva
-Source:		%{name}-%{version}.tar.bz2
+Source0:		%{name}-%{version}.tar.bz2
 BuildRequires:  automake
 BuildRequires:  libtool
 BuildRequires:  gettext
