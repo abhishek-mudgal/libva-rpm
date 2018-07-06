@@ -5,9 +5,8 @@ Version:		2.2.0
 Release:		1
 Summary:	Generate Your Projects
 
-Group:		Development/Tools
+Group:		Development/Libraries
 License:		MIT
-URL:		https://github.com/intel/libva
 Source0:		%{name}-%{version}.tar.bz2
 BuildRequires:  automake
 BuildRequires:  libtool
