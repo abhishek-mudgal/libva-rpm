@@ -23,11 +23,12 @@ VA-API is an open-source library and API specification, which provides access to
 %setup -q -n %{name}-%{version}/libva
 
 %build
-./autogen.sh --enable-static
+./autogen.sh
+%configure \
+	 --enable-static
 make %{?_smp_mflags}
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %make_install
 
 
